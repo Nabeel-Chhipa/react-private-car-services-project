@@ -49,10 +49,11 @@ const BannerTwo = () => {
                         <div className='btn-wrap'>
                           <Link
                             className='btn btn-base b-animate-4'
-                            to='/service'
+                            to='https://book.mylimobiz.com/v4/tommyspcs'
+                            target='_blank'
                           >
                             {" "}
-                            Explore The Services
+                            Book Online
                           </Link>
                           <Link
                             className='btn btn-white b-animate-4'

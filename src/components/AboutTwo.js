@@ -37,7 +37,7 @@ const AboutTwo = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <h1>
-                              <CountUp delay={0} start={0} end={22} />
+                              <CountUp delay={0} start={0} end={44} />
                             </h1>
                           )
                         }
@@ -52,56 +52,18 @@ const AboutTwo = () => {
                   <div className='section-title mb-0'>
                     <h4 className='subtitle'>ABOUT US</h4>
                     <h2 className='title mb-2'>
-                      BEST WORLD’S LEADING LOGISTIC &amp; TRANSPORT COMPANY
+                    Tommy's Private Car Service
                     </h2>
                     <p>
-                      Objectively transition 24/365 e-tailers before cross
-                      functional collaboration and idea-sharing. Competently
-                      iterate plug-and-play deliverables vis-a-vis parallel
-                      relationships.
+                    I am Tommy Dunmore and I am committed to the perfect ride for each and every passenger.
                     </p>
-                    <div className='row'>
-                      <div className='col-xl-6'>
-                        <div className='single-about-wrap'>
-                          <div className='icon'>
-                            <img
-                              src='assets/img/about/icon-1.png'
-                              alt='Transpro'
-                            />
-                          </div>
-                          <div className='details'>
-                            <h6>Unlimited Revisions &amp; Best Solutions</h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='col-xl-6'>
-                        <div className='single-about-wrap'>
-                          <div className='icon'>
-                            <img
-                              src='assets/img/about/icon-2.png'
-                              alt='Transpro'
-                            />
-                          </div>
-                          <div className='details'>
-                            <h6>24/7 Support For Any Clients</h6>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <p>
+                    TPCS is based in the city of West Chicago and serves all of Chicagoland with a focus on western DuPage County.  You can book a ride right here on this website, or feel free to give me a call for your next trip to the airport or your next night out on the town. (847) 532-9718
+                    </p>
                     <div className='btn-wrap'>
                       <Link className='btn btn-base' to='/about'>
-                        DISCOVER MORE
+                        READ MORE
                       </Link>
-                      <div className='video-wrap d-flex align-items-center gap-2'>
-                        <span
-                          className='video-play-btn cursor-pointer'
-                          data-effect='mfp-zoom-in'
-                          onClick={() => setOpen(true)}
-                        >
-                          <FaPlay />
-                        </span>
-                        <span>Watch The Video</span>
-                      </div>
                     </div>
                   </div>
                 </div>

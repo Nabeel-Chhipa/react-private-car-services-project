@@ -30,9 +30,9 @@ const VideoAreaOne = () => {
                 style={{ background: "url(assets/img/video/bg.png)" }}
               >
                 <div className='section-title style-white mb-0'>
-                  <h4 className='subtitle style-2'>LET’S TALK</h4>
+                  <h4 className='subtitle style-2'>LET&apos;S TALK</h4>
                   <h2 className='title'>
-                    YOU NEED ANY HELP? GET FREE CONSULTATION
+                  WANT TO KNOW MORE?
                   </h2>
                 </div>
                 <div className='single-cta-wrap'>
@@ -41,7 +41,7 @@ const VideoAreaOne = () => {
                   </div>
                   <div className='details'>
                     <h6>Have Any Question</h6>
-                    <h3>+19524357106</h3>
+                    <h3>(847) 532-9718</h3>
                   </div>
                 </div>
                 <Link className='btn btn-white' to='/contact'>

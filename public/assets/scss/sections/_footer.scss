@@ -4,7 +4,7 @@
 .footer-area {
   position: relative;
   background-color: #080c24;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   &.style-2 {
     .footer-top {
       padding: 0;
@@ -72,7 +72,8 @@
   .widget {
     position: relative;
     z-index: 2;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    margin-top: 63px;
   }
   .widget-title {
     padding-bottom: 13px;

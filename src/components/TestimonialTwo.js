@@ -19,7 +19,7 @@ const TestimonialTwo = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -60,7 +60,7 @@ const TestimonialTwo = () => {
             <div className='col-lg-6'>
               <div className='section-title text-center mb-0'>
                 <h4 className='subtitle style-2'>TESTIMONIALS</h4>
-                <h2 className='title'>OUR CLIENT’S FEEDBACK</h2>
+                <h2 className='title'>OUR CLIENT&apos;S FEEDBACK</h2>
                 <p className='content'>
                   Dramatically enhance interactive metrics for reliable
                   services. Proactively unleash fully researched e-commerce.
@@ -79,17 +79,14 @@ const TestimonialTwo = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “Easy to book, reasonable pricing, very nice SUV. Tommy arrived early, was professional and kept the ride smooth on my early morning ride. Highly recommend and I will 100% use again!”
                   </p>
                   <div className='client-wrap'>
-                    <div className='thumb'>
+                    {/* <div className='thumb'>
                       <img src='assets/img/testimonial/1.png' alt='Transpro' />
-                    </div>
+                    </div> */}
                     <div className='details'>
-                      <h5>ANJELINA MATHEUS</h5>
-                      <p>Co-Founder</p>
+                      <h5>JACOB WOLFE</h5>
                     </div>
                   </div>
                 </div>
@@ -103,17 +100,11 @@ const TestimonialTwo = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “Nick, our driver, was on time, friendly, easy to visit with.  This is our first time using a service to and from airport.  We will use them again and hope our driver will be Nick.”
                   </p>
                   <div className='client-wrap'>
-                    <div className='thumb'>
-                      <img src='assets/img/testimonial/2.png' alt='Transpro' />
-                    </div>
                     <div className='details'>
-                      <h5>MONISH POUL</h5>
-                      <p>Co-Founder</p>
+                      <h5>KATHLEEN MORROW</h5>
                     </div>
                   </div>
                 </div>
@@ -127,17 +118,11 @@ const TestimonialTwo = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “Tommy is polite, punctual, and always takes good care of his passengers. You won&apos;t be disappointed when you choose his service - safety and customer service are his top priorities.”
                   </p>
                   <div className='client-wrap'>
-                    <div className='thumb'>
-                      <img src='assets/img/testimonial/3.png' alt='Transpro' />
-                    </div>
                     <div className='details'>
-                      <h5>MICHEL CLACRK</h5>
-                      <p>Co-Founder</p>
+                      <h5>WENDY PITTS</h5>
                     </div>
                   </div>
                 </div>
@@ -151,17 +136,11 @@ const TestimonialTwo = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “Vehicle is very well maintained, top end transportation. Driver was early and very professional. I travel extensively and this is the best Private car service of any I have used.”
                   </p>
                   <div className='client-wrap'>
-                    <div className='thumb'>
-                      <img src='assets/img/testimonial/2.png' alt='Transpro' />
-                    </div>
                     <div className='details'>
-                      <h5>MONISH POUL</h5>
-                      <p>Co-Founder</p>
+                      <h5>JOHN FARLEY</h5>
                     </div>
                   </div>
                 </div>

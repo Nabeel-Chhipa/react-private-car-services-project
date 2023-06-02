@@ -8,7 +8,7 @@ const FooterBottomOne = React.lazy(() =>
 const FooterTwo = React.lazy(() => import("../components/FooterTwo"));
 const NavbarTwo = React.lazy(() => import("../components/NavbarTwo"));
 
-const Contact = () => {
+const Gallery = () => {
   return (
     <>
       <Fragment>
@@ -20,10 +20,9 @@ const Contact = () => {
           <NavbarTwo />
 
           {/* Breadcrumb */}
-          <Breadcrumb title={"CONTACT US"} />
+          <Breadcrumb title={"Gallery"} />
 
-          {/* Breadcrumb */}
-          <ContactInner />
+          
 
           {/* Footer two */}
           <FooterTwo />
@@ -36,4 +35,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Gallery;

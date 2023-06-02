@@ -12,12 +12,17 @@ const WhyChooseUsTwo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
               <div className='section-title style-white text-center'>
-                <h4 className='subtitle style-2'>WHY CHOOSE US</h4>
-                <h2 className='title'>WHY CHOOSE FOR US</h2>
-                <p className='content'>
-                  Dramatically enhance interactive metrics for reliable
-                  services. Proactively unleash fully researched e-commerce.
+                <h4 className='subtitle style-2'>WHY CHOOSE ME</h4>
+                <h2 className='title'>WHAT MAKES ME DIFFERENT?</h2>
+                <p className='content fs-5'>
+                My attention to detail and flexibility is something larger services have a hard time matching!
                 </p>
+                <p className='content'>
+                Dependable, Comfortable, On-Demand Transportation Focused On The Business Traveler. I Really Enjoy Taking Families To The Airports For Their Vacations!!
+                </p>
+                <small className='content fw-bold'>
+                Complimentary amenities for every rider included
+                </small>
               </div>
             </div>
           </div>
@@ -28,11 +33,11 @@ const WhyChooseUsTwo = () => {
                   <img src='assets/img/wcu/icon-4.png' alt='Transpro' />
                 </div>
                 <div className='details'>
-                  <h6>FAST TRANSPORTION SERVICE</h6>
-                  <p>
+                  <h6>Cold Bottled Water</h6>
+                  {/* <p>
                     Enhance interactive metrics for reliable services.
                     Proactively unleash fully researched.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className='single-wcu-wrap style-2'>
@@ -40,11 +45,35 @@ const WhyChooseUsTwo = () => {
                   <img src='assets/img/wcu/icon-5.png' alt='Transpro' />
                 </div>
                 <div className='details'>
-                  <h6>SAFETY AND RELIABILITY</h6>
-                  <p>
+                  <h6>Peppermints, Jolly Ranchers, or 4 Types of Wrigley Gum</h6>
+                  {/* <p>
                     Enhance interactive metrics for reliable services.
                     Proactively unleash fully researched.
-                  </p>
+                  </p> */}
+                </div>
+              </div>
+              <div className='single-wcu-wrap style-2'>
+                <div className='icon'>
+                  <img src='assets/img/wcu/icon-5.png' alt='Transpro' />
+                </div>
+                <div className='details'>
+                  <h6>Small Device Chargers</h6>
+                  {/* <p>
+                    Enhance interactive metrics for reliable services.
+                    Proactively unleash fully researched.
+                  </p> */}
+                </div>
+              </div>
+              <div className='single-wcu-wrap style-2'>
+                <div className='icon'>
+                  <img src='assets/img/wcu/icon-5.png' alt='Transpro' />
+                </div>
+                <div className='details'>
+                  <h6>120-Volt Outlet</h6>
+                  {/* <p>
+                    Enhance interactive metrics for reliable services.
+                    Proactively unleash fully researched.
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -59,11 +88,11 @@ const WhyChooseUsTwo = () => {
                   <img src='assets/img/wcu/icon-6.png' alt='Transpro' />
                 </div>
                 <div className='details'>
-                  <h6>24/7 ONLINE SUPPORT</h6>
-                  <p>
+                  <h6>Heated, Reclinable, Leather Second Row Seats</h6>
+                  {/* <p>
                     Enhance interactive metrics for reliable services.
                     Proactively unleash fully researched.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className='single-wcu-wrap style-2'>
@@ -71,10 +100,21 @@ const WhyChooseUsTwo = () => {
                   <img src='assets/img/wcu/icon-7.png' alt='Transpro' />
                 </div>
                 <div className='details'>
-                  <h6>ONLINE TRACKING</h6>
-                  <p>
+                  <h6>Control Over The Rear Heater/AC</h6>
+                  {/* <p>
                     Enhance interactive metrics for reliable services.
                     Proactively unleash fully researched.
+                  </p> */}
+                </div>
+              </div>
+              <div className='single-wcu-wrap style-2'>
+                <div className='icon'>
+                  <img src='assets/img/wcu/icon-7.png' alt='Transpro' />
+                </div>
+                <div className='details'>
+                  <h6>Complete Control Over The Car's Soundsystem</h6>
+                  <p>
+                  Connect your phone via Bluetooth, choose the radio station,  or experience one of my curated playlists on Spotify
                   </p>
                 </div>
               </div>
