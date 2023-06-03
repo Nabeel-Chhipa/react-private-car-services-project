@@ -1,12 +1,12 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
 const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
-const ContactInner = React.lazy(() => import("../components/ContactInner"));
 const FooterBottomOne = React.lazy(() =>
-  import("../components/FooterBottomOne")
+import("../components/FooterBottomOne")
 );
 const FooterTwo = React.lazy(() => import("../components/FooterTwo"));
 const NavbarTwo = React.lazy(() => import("../components/NavbarTwo"));
+const GallerySlider = React.lazy(() => import("../components/GallerySlider"))
 
 const Gallery = () => {
   return (
@@ -22,7 +22,8 @@ const Gallery = () => {
           {/* Breadcrumb */}
           <Breadcrumb title={"Gallery"} />
 
-          
+          {/* Galery Slider */}
+          <GallerySlider />
 
           {/* Footer two */}
           <FooterTwo />
